@@ -27,7 +27,7 @@ const Social = () => {
     <a  href='https://twitter.com/kalash__jain_' target=' ' ><img className="h-[45px]" src={twitter} alt="" /></a>
     <a  href='https://www.instagram.com/kalash.png/' target=' ' ><img className="h-[40px]" src={instagram} alt="" /></a>
     <a  href='https://www.facebook.com/kalashjain.1010/'  target=' '><img className="h-[40px]" src={facebook} alt="" /></a>
-    <a  href='https://drive.google.com/file/d/17rwNIG-Mlgp8JAAMimJHJRAaYUKpEZXX/view?usp=share_link'  target=' '><img className="h-[40px]" src={resume} alt="" /></a>
+    <a  href='https://drive.google.com/file/d/1UXlwj9fylh_chM8XL6da1wIJomHlAsz7/view?usp=share_link'  target=' '><img className="h-[40px]" src={resume} alt="" /></a>
 
     </motion.div>
       <br />
