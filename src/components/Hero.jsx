@@ -1,11 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import p5 from 'p5';
-
-import './MyWebsite.css';
-import Navbar from './Navbar'; 
-import Content from './Content';
-import About from './About';
-
+import "./MyWebsite.css"
 const Hero = () => {
   const canvasRef = useRef(null);
 
@@ -16,6 +11,8 @@ const Hero = () => {
     const sketch = (p) => {
       p.setup = () => {
         const canvas = p.createCanvas(p.windowWidth, p.windowHeight);
+        canvas.position(0, 0); // Position the canvas at the top-left corner
+        canvas.style('z-index', '-1'); // Set the canvas behind other elements
         canvas.parent(canvasRef.current);
         astro = new Astro(p.width / 2, p.height / 2);
         for (let i = 0; i < 300; i++) {
@@ -36,7 +33,6 @@ const Hero = () => {
       p.windowResized = () => {
         p.resizeCanvas(p.windowWidth, p.windowHeight);
       };
-
 
       class Astro {
         constructor(x, y) {
@@ -115,18 +111,7 @@ const Hero = () => {
     };
   }, []);
 
-  return (
-    <>
-    <div className="my-website-container">
-      <Navbar />
-      <div className="portfolio-content">
-       <Content/>
-      </div>
-      <div ref={canvasRef} className="canvas-container"></div>
-       
-    </div>
-    </>
-  );
+  return <div ref={canvasRef} style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0 }} />;
 };
 
 export default Hero;

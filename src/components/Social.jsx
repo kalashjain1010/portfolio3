@@ -32,7 +32,7 @@ const Social = () => {
     </motion.div>
       <br />
       <footer className="text-center max-sm:mt-20">
-       Did you feel alone too when that thing stop following your cursor? 🙂
+        Chinta na kr sb theek ho jaega 🙂
       </footer>
 
 

@@ -212,24 +212,46 @@ import {
       name: "Word Counter",
     description:
       "This app takes user input in the form of a string and returns the total word count and total charcters.It also has additional features like covert to upperCase and LowerCase",
-    tags: [
-      {
-        name: "Reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "TailwindCss",
-        color: "green-text-gradient",
-      },
-      {
-        name: "js",
-        color: "pink-text-gradient",
-      },
-    ],
+      tags: [
+        {
+          name: "Reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TailwindCss",
+          color: "green-text-gradient",
+        },
+        {
+          name: "js",
+          color: "pink-text-gradient",
+        },
+      ],
       image: HoneyUncle,
-      ssource_code_link: "https://github.com/kalashjain1010/WordCounterUsingReact",
+      source_code_link: "https://github.com/kalashjain1010/WordCounterUsingReact",
       minImg: github,
     },
+    // {
+    //   name: "Word Counter",
+    // description:
+    //   "This app takes user input in the form of a string and returns the total word count and total charcters.It also has additional features like covert to upperCase and LowerCase",
+    // tags: [
+    //   {
+    //     name: "Reactjs",
+    //     color: "blue-text-gradient",
+    //   },
+    //   {
+    //     name: "TailwindCss",
+    //     color: "green-text-gradient",
+    //   },
+    //   {
+    //     name: "js",
+    //     color: "pink-text-gradient",
+    //   },
+    // ],
+    //   image: HoneyUncle,
+    //   ssource_code_link: "https://github.com/kalashjain1010/WordCounterUsingReact",
+    //   minImg: github,
+    // },
 
   ];
   
