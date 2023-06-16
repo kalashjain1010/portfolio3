@@ -205,7 +205,7 @@ const projects = [
     },
     ],
     image: Zerociti,
-    source_code_link: "https://github.com/kalashjain1010/Portfolio-v2",
+    source_code_link: "https://github.com/kalashjain1010/Speed-type",
     minImg: github,
   },
   {
