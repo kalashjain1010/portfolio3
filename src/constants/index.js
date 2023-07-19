@@ -4,7 +4,7 @@ import {
   creator,
   web,
   chatgpt,
-  ravi,
+  // ravi,
   reactjs,
   nodejs,
   honeyuncle,
@@ -17,8 +17,8 @@ import {
   express,
   vue,
   github,
-  personal,
-  live
+  // personal,
+  // live
 } from "../assets";
 
 export const navLinks = [
@@ -143,7 +143,7 @@ const testimonials = [
     name: "Ravi Pathak",
     designation: "ASE Intern",
     company: "Techion",
-    image: ravi,
+    // image: ravi,
   },
   // {
   //   testimonial:
