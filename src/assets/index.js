@@ -9,7 +9,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 // import ravi from "./ravi.jpg";
 import chatgpt from "./chatgpt.png";
-import manoffice from "./manoffice.gif"
+// import manoffice from "./manoffice.gif"
 // import officeplus from "./officeplus.gif"
 import standingman from "./standingman.png"
 import studying from "./studying.png"
@@ -22,6 +22,7 @@ import twitter from "./twitter.png"
 // import live from "./live.png"
 import warnimg from "./warning.png"
 import resume from "./resume.png"
+import colab from "./colab.png"
 
 
 // import css from "./tech/css.png";
@@ -46,8 +47,12 @@ import seo from "./company/seo.png";
 
 import Zerociti from "./zerociti.png";
 import HoneyUncle from "./HoneyUncle.png";
+import create from "./create.png";
+import wordcount from "./wordcount.png";
 
 export {
+  create,
+  wordcount,
   logo,
   backend,
   creator,
@@ -59,6 +64,7 @@ export {
   close,
   // ravi,
   chatgpt,
+  colab,
   // cv,
   // css,
   // docker,
@@ -79,7 +85,7 @@ export {
   seo,
   Zerociti,
   HoneyUncle,
-  manoffice,
+  // manoffice,
   // officeplus,
   standingman,
   studying,

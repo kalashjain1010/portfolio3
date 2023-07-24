@@ -17,6 +17,9 @@ import {
   express,
   vue,
   github,
+  colab,
+  create,
+  wordcount
   // personal,
   // live
 } from "../assets";
@@ -82,6 +85,20 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Front-End Developer",
+  company_name: "Colab",
+    icon: colab,
+    iconBg: "#E6DEDD",
+    date: "May 2023 - July 2023",
+    // date: "Jan 2022 - Jan 2023",
+  points: [
+    "Developed a web application in an international team, focusing on front-end and UI/UX design.",
+    "Created the application using HTML, CSS, JavaScript, and frameworks like NextJs with expertise in UI/UX design principles, responsive web design,and version control systems while showcasing effective teamwork and meeting project deadlines.",
+    "Implementing responsive design and ensuring cross-browser compatibility.",
+    "Delivered an app enabling users to post projects and hire professionals.",
+  ],
+  },
+  {
     title: "Web Developer Intern",
     company_name: "NGTS",
     icon: tech4addiction,
@@ -107,20 +124,7 @@ const experiences = [
     
   ],
   },
-  {
-    title: "Referal India",
-  company_name: "Refferal India",
-    icon: zerociti,
-    iconBg: "#E6DEDD",
-    date: "April 2022 - Oct 2022",
-    date: "Jan 2022 - Jan 2023",
-  points: [
-    "Developing and maintaining web applications using React.js and other related technologies.",
-    "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    "Implementing responsive design and ensuring cross-browser compatibility.",
-    "Participating in code reviews and providing constructive feedback to other developers.",
-  ],
-  },
+ 
   {
     title: "Full stack App",
     company_name: "Crypto Sensex",
@@ -165,6 +169,53 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Cre8Team",
+  description:
+    "platform connects companies with job seekers, offering job postings and opportunities for relevant job matches with interactive user interface.",
+    tags: [
+      {
+        name: "Nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: create,
+    project_link: "https://cre8-iota.vercel.app/",
+    source_code_link: "https://github.com/kalashjain1010/Colab",
+    minImg: github,
+  },
+  
+  {
+    name: "Speed Types",
+  description:
+    "Developed a web-based typing speed application using React. Created an interactive user interface with features such as time tracking, accuracy calculation..",
+  tags: [
+    {
+      name: "react",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "JSON",
+      color: "green-text-gradient",
+    },
+    {
+      name: "Tailwind css",
+      color: "pink-text-gradient",
+    },
+    ],
+    image: Zerociti,
+    project_link:"https://speed-type-liart.vercel.app/",
+    source_code_link: "https://github.com/kalashjain1010/Speed-type",
+    minImg: github,
+  },
+  {
     name: "Reddit Clone",
     description:
     "The main features of a Reddit clone include user-generated content, voting on content, commenting, and subreddits (topic-specific communities).",
@@ -183,31 +234,11 @@ const projects = [
       },
     ],
     image: chatgpt,
+    project_link: "https://github.com/kalashjain1010/Redit",
     source_code_link: "https://github.com/kalashjain1010/Redit",
     minImg: github,
   },
-  {
-    name: "Speed Types",
-  description:
-    "Developed a web-based typing speed application using React. Created an interactive user interface with features such as time tracking, accuracy calculation..",
-  tags: [
-    {
-      name: "react",
-      color: "blue-text-gradient",
-    },
-    {
-      name: "ThreeJs",
-      color: "green-text-gradient",
-    },
-    {
-      name: "Tailwind css",
-      color: "pink-text-gradient",
-    },
-    ],
-    image: Zerociti,
-    source_code_link: "https://github.com/kalashjain1010/Speed-type",
-    minImg: github,
-  },
+  
   {
     name: "Word Counter",
   description:
@@ -218,7 +249,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "TailwindCss",
+        name: "Bootstrap",
         color: "green-text-gradient",
       },
       {
@@ -226,32 +257,11 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: HoneyUncle,
+    image: wordcount,
+    project_link: "https://regal-profiterole-d32bda.netlify.app/",
     source_code_link: "https://github.com/kalashjain1010/WordCounterUsingReact",
     minImg: github,
   },
-  // {
-  //   name: "Word Counter",
-  // description:
-  //   "This app takes user input in the form of a string and returns the total word count and total charcters.It also has additional features like covert to upperCase and LowerCase",
-  // tags: [
-  //   {
-  //     name: "Reactjs",
-  //     color: "blue-text-gradient",
-  //   },
-  //   {
-  //     name: "TailwindCss",
-  //     color: "green-text-gradient",
-  //   },
-  //   {
-  //     name: "js",
-  //     color: "pink-text-gradient",
-  //   },
-  // ],
-  //   image: HoneyUncle,
-  //   ssource_code_link: "https://github.com/kalashjain1010/WordCounterUsingReact",
-  //   minImg: github,
-  // },
 
 ];
 
