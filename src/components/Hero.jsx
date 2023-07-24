@@ -15,7 +15,7 @@ const Hero = () => {
         canvas.style('z-index', '-1'); // Set the canvas behind other elements
         canvas.parent(canvasRef.current);
         astro = new Astro(p.width / 2, p.height / 2);
-        for (let i = 0; i < 300; i++) {
+        for (let i = 0; i < 100; i++) {
           nodes.push(new Node(p.random(p.width), p.random(p.height)));
         }
       };
